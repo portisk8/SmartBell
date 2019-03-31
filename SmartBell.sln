@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0E52DC3D-4FEB-4ABB-BAB7-A80136D68939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartBell.Core.Configuration", "SmartBell.Core.Configuration\SmartBell.Core.Configuration.csproj", "{8695DFF2-C12D-418B-9094-3A689C249213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartBell", "SmartBell\SmartBell.csproj", "{6D440030-3330-462D-B94A-AE11532CBF7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8695DFF2-C12D-418B-9094-3A689C249213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8695DFF2-C12D-418B-9094-3A689C249213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8695DFF2-C12D-418B-9094-3A689C249213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8695DFF2-C12D-418B-9094-3A689C249213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D440030-3330-462D-B94A-AE11532CBF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D440030-3330-462D-B94A-AE11532CBF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D440030-3330-462D-B94A-AE11532CBF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D440030-3330-462D-B94A-AE11532CBF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8695DFF2-C12D-418B-9094-3A689C249213} = {0E52DC3D-4FEB-4ABB-BAB7-A80136D68939}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {004FD2FF-F82A-4FE1-825C-BCA7B33F40EE}
+	EndGlobalSection
+EndGlobal
